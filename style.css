@@ -87,3 +87,12 @@ ul li a {
     padding: 50px;
 
 }
+
+
+input {
+    padding: 3px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: #3882F6;
+    border: none;
+}
