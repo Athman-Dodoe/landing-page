@@ -79,6 +79,7 @@ ul li a {
     max-width: 350px;
     padding: 45px;
     font-size: 14px;
+    
 
 }
 
@@ -104,7 +105,7 @@ input {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    
+    padding-bottom: 20px;
 }
 
 .info-card {
@@ -139,9 +140,10 @@ input {
 }
 
 .quote p{
-    padding: 15px;
+    padding: 20px;
     max-width: 370px;
     color: #1F2937;
+    
     
 }
 
@@ -149,5 +151,35 @@ input {
     display: flex;
     justify-content: flex-end;
     padding-top: 10px;
+    
+}
+
+.join {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.join-card {
+    padding: 15px;
+    color: #F9FAF8;
+    font-size: 13px;
+    
+    
+}
+
+.join-card h2 {
+    font-weight:bolder ;
+    
+}
+
+#join-btn {
+    border: 2px solid #F9FAF8;
+    height: 25px;
+    width: 75px;
     
 }
