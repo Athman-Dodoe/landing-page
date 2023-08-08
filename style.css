@@ -6,9 +6,8 @@
 
 
 section {
-    display: flex;
-    justify-content: center;
-    /* padding:3rem 11%; */
+    padding:1rem 11%; 
+    
 
 }
 
@@ -95,4 +94,43 @@ input {
     width: 70px;
     background-color: #3882F6;
     border: none;
+    margin-top: 5px;
+    color: #F9FAF8;
+}
+
+.main h3{
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.info {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+
+}
+
+.info-card p {
+    width: 85px;
+    text-align: center;
+    font-size: xx-small;
+
 }
